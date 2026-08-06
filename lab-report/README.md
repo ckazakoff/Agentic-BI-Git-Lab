@@ -65,8 +65,9 @@ Launch **Power BI Desktop** → **File → Open report → Browse this device** 
 
 ## If something goes wrong
 
-1. **Tables appear but are empty** — click **Refresh** once. Calculated tables normally evaluate on
-   load, but Desktop occasionally asks.
+1. **A "calculated objects need to be manually refreshed" banner** — harmless if the numbers are
+   showing; calculated tables have already evaluated. Dismiss it. Only if the tables are genuinely
+   **empty** do you need to click **Refresh**.
 2. **Model changes not appearing** — Desktop reads these files when it *opens* the project. After
    any edit on disk, **close and reopen** the `.pbip`.
 3. **Desktop opens blank ("Untitled") and never loads the project, with no error** — almost always

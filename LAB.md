@@ -86,7 +86,10 @@ Desktop takes a minute — **start it now** and read ahead while it opens.
 
 It opens on the **Lab** page showing Sales by Customer. You should see **181 orders** totalling
 **$4,591,650.58** (Jan 2024 → Dec 2025) straight away — every table is a calculated table, so there
-is no data source, no credentials and nothing to refresh.
+is no data source, no credentials and nothing to set up.
+
+> Desktop may still show a *"calculated objects need to be manually refreshed"* banner. If the
+> numbers are showing, that's cosmetic — dismiss it and carry on.
 
 Three things worth knowing about that folder:
 
