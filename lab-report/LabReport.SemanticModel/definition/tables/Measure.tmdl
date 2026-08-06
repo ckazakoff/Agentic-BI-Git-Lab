@@ -1,0 +1,25 @@
+table Measure
+	lineageTag: 00000000-0000-0000-0000-000000000003
+
+	measure 'Total Sales' = SUM(Sales[SalesTotal])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 00000000-0000-0000-0000-000000000004
+
+	measure 'Order Count' = COUNTROWS(Sales)
+		formatString: #,0
+		lineageTag: 00000000-0000-0000-0000-000000000005
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 00000000-0000-0000-0000-000000000006
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Placeholder]
+
+	partition Measure = calculated
+		mode: import
+		source =
+				ROW("Placeholder", BLANK())
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,12 @@
+{
+  "name": "lab-toolkit",
+  "description": "Skills for applying house conventions to a Power BI semantic model in TMDL/PBIP format.",
+  "version": "0.1.0",
+  "keywords": [
+    "power-bi",
+    "tmdl",
+    "pbip",
+    "semantic-model",
+    "conventions"
+  ]
+}

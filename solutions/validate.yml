@@ -1,0 +1,24 @@
+# Reference answer for the lab's CI reveal.
+#
+# Copy to .github/workflows/validate.yml to activate it. Kept here (outside .github/)
+# so the CI step of the lab is a genuine reveal rather than something participants
+# have already seen sitting on main.
+
+name: Validate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate plugins
+        run: python scripts/validate_plugins.py

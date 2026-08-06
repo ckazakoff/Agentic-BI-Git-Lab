@@ -1,0 +1,12 @@
+# Attendee sandboxes - each person's throwaway copy of lab-report/.
+# A test artifact is not reusable knowledge, so it never gets committed.
+sandbox/
+
+# Power BI Desktop local state (regenerated on open)
+**/.pbi/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp

@@ -1,0 +1,16 @@
+{
+  "name": "agentic-dev-lab",
+  "owner": {
+    "name": "Agentic Development Lab"
+  },
+  "metadata": {
+    "description": "Workshop marketplace: a small Power BI toolkit that lab participants extend."
+  },
+  "plugins": [
+    {
+      "name": "lab-toolkit",
+      "source": "./plugins/lab-toolkit",
+      "description": "Skills for applying house conventions to a Power BI semantic model (TMDL)."
+    }
+  ]
+}
