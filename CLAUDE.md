@@ -45,3 +45,8 @@ are unsure where something belongs.
 - Desktop reads the project **on open** — close and reopen to see a change.
 
 Full conventions: [plugins/lab-toolkit/skills/semantic-model-conventions/SKILL.md](plugins/lab-toolkit/skills/semantic-model-conventions/SKILL.md).
+
+Hard-won PBIP/PBIR gotchas — schema URLs, why a folder name must be the object id, the Windows
+path limit, the validator and Desktop-bridge CLIs — are in
+[.claude/rules/pbir-authoring.md](.claude/rules/pbir-authoring.md), which Claude Code loads
+automatically when run from this repo. Read it before hand-editing anything under `lab-report/`.
