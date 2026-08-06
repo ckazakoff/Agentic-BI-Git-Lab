@@ -28,8 +28,8 @@ If you already cloned it during pre-work, skip to Step 1.
 
 ```powershell
 mkdir C:\dev -Force; cd C:\dev
-git clone https://github.com/<ORG>/agentic-dev-lab.git
-cd agentic-dev-lab
+git clone https://github.com/ckazakoff/Agentic-BI-Git-Lab.git
+cd Agentic-BI-Git-Lab
 ```
 
 > **Why the short path matters.** The Power BI project nests files deeply

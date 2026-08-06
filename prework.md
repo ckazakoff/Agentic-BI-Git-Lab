@@ -50,8 +50,8 @@ Windows' 260-character limit, after which Desktop refuses to open the project wi
 
 ```powershell
 mkdir C:\dev -Force; cd C:\dev
-git clone --recurse-submodules https://github.com/<ORG>/agentic-dev-lab.git
-cd agentic-dev-lab
+git clone https://github.com/ckazakoff/Agentic-BI-Git-Lab.git
+cd Agentic-BI-Git-Lab
 ```
 
 If that fails with a permissions error, tell me — it means I haven't added you to the project yet.

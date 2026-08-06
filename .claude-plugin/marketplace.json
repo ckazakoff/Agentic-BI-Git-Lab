@@ -1,7 +1,7 @@
 {
-  "name": "agentic-dev-lab",
+  "name": "agentic-bi-git-lab",
   "owner": {
-    "name": "Agentic Development Lab"
+    "name": "Cody Kazakoff"
   },
   "metadata": {
     "description": "Workshop marketplace: a small Power BI toolkit that lab participants extend."

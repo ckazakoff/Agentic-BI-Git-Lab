@@ -38,7 +38,7 @@ If they leave able to state that idea and run the loop once, the lab worked.
 2. **Dry-run the whole lab** on a throwaway branch, including writing one skill and applying it.
    Budget 25 minutes. It's the only way to find the one thing that's different on a real machine.
 3. **Grant access.** Every attendee needs the **Developer** role on
-   `<ORG>/agentic-dev-lab`. Verify with a test push, not by looking at
+   `ckazakoff/Agentic-BI-Git-Lab`. Verify with a test push, not by looking at
    the members list.
 4. **Protect `main`.** Settings → Repository → Protected branches: `main`, allowed to merge =
    Maintainers, **allowed to push = No one**. A stray `git push` then can't ruin the lab, and the
