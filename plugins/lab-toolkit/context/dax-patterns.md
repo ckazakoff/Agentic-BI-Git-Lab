@@ -26,6 +26,7 @@ these take the date **column** explicitly — don't rely on the marking alone.
 | Previous month | `CALCULATE([Total Sales], PREVIOUSMONTH('Dates'[Date]))` |
 | Rolling 12 months | `CALCULATE([Total Sales], DATESINPERIOD('Dates'[Date], MAX('Dates'[Date]), -12, MONTH))` |
 | Year over year % | `DIVIDE([Total Sales] - [Total Sales PY], [Total Sales PY])` |
+| Quarter to date | `TOTALQTD([Total Sales], 'Dates'[Date])` |
 
 <!-- Lab: add your row at the bottom of the table above. -->
 
