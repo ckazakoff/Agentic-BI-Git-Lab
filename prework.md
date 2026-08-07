@@ -1,4 +1,4 @@
-# Pre-work — send 3–5 days before the lab
+# Pre-work — send before the lab
 
 The lab is 60 minutes and every minute is hands-on. Installing tools during the session kills it,
 so this has to be done beforehand. Send the note below, then follow up individually with anyone
